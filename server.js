@@ -12,7 +12,7 @@ const {
 const API = "https://discord.com/api/v10";
 
 // الاتصال بقاعدة بيانات MongoDB تلقائياً
-mongoose.connect(MONGO_URI || "mongodb://Gojocat-newuser1:9pcvtGac@ac-bmcspcl-shard-00-00.wfkfa3z.mongodb.net:27017,ac-bmcspcl-shard-00-01.wfkfa3z.mongodb.net:27017,ac-bmcspcl-shard-00-02.wfkfa3z.mongodb.net:27017/?ssl=true&replicaSet=atlas-yfnau8-shard-0&authSource=admin&compressors=zlib", {
+mongoose.connect(MONGO_URI || "mongodb://anasdizi2010_db_user:9pcvtGac@ac-npyaqok-shard-00-00.o71znfl.mongodb.net:27017,ac-npyaqok-shard-00-01.o71znfl.mongodb.net:27017,ac-npyaqok-shard-00-02.o71znfl.mongodb.net:27017/?ssl=true&replicaSet=atlas-ercvu6-shard-0&authSource=admin", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(() => console.log("Connected to MongoDB!")).catch(err => console.error(err));
